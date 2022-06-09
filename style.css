@@ -7,6 +7,7 @@ p {
     line-height: 1.5;
 }
 body {
+    margin: 0 auto;
     font-size: 15px;
     font-family: 'League Spartan', sans-serif;
     width: 100%;
