@@ -27,7 +27,6 @@ body {
 .content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     gap: 40px;
 }
@@ -113,13 +112,14 @@ body {
 
     .content {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         flex-direction: row;
     }
 
     .note {
         width: 35%;
         text-align: left;
+        flex: 0 0 380px;
     }
     .note h1 {
         font-size: 3rem;
@@ -137,6 +137,13 @@ body {
         margin-top: 8px;
     }
 
+    .bottom {
+
+    }
+
+    .reviews {
+        flex: 0 0 380px;
+    }
     .r2 {
         margin-left: 50px;
     }
