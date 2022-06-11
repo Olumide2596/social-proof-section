@@ -111,6 +111,11 @@ body {
         padding: 100px;
     }
 
+    h2 {
+        font-size: 1.5rem;
+    }
+        
+
     .content {
         display: flex;
         flex-wrap: wrap;
