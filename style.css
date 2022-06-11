@@ -134,7 +134,12 @@ body {
     .note p{
         font-size: 1.15rem;
     }
+
+    .ratings {
+        flex-shrink: 0;
+    }
     .rating {
+        flex-shrink: 0;
         flex-direction: row;
         gap: 20px;
         padding: 10px 5px;
