@@ -27,11 +27,7 @@ body {
 
 .content {
     display: flex;
-<<<<<<< HEAD
     flex-wrap:  wrap;
-=======
-    flex-wrap: wrap;
->>>>>>> parent of bc7f2d2 (wrap)
     align-items: center;
     gap: 40px;
 }
