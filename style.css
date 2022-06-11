@@ -27,7 +27,7 @@ body {
 
 .content {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:  nowrap;
     align-items: center;
     gap: 40px;
 }
@@ -148,7 +148,7 @@ body {
     }
 
     .reviews {
-        flex: 0 0 380px;
+        flex-basis: 350px;
     }
     .r2 {
         margin-left: 50px;
